@@ -1,0 +1,227 @@
+body{
+  background: url("Images/QLAccueil/ovabackgroundaccueil.jpg") 0 0 fixed no-repeat;
+  background-size: cover;          /*pour que le fond prenne une plus grande partie de l'image*/
+}
+
+/*La partie scrollmenu*/
+
+iframe {
+   border: 0;
+   overflow: auto;
+   width: 100%;
+}
+
+
+
+/*On entre dnas le corps de la page*/
+
+
+#conteneur{
+	width: 1200px;
+  height: auto;
+  margin:0 auto;
+
+}
+
+
+
+
+table.haut{
+    background-color:rgb(255, 255, 255); opacity:0.5;
+    opacity: 0.4;
+    margin-top: 150px;
+    margin-left: 10px;
+    height:20px;
+    width:auto;
+    font-size:28px;
+    font-family:arial;
+    font-weight: bold;
+    border-radius:7px;
+
+
+
+
+
+}
+
+table.haut td{
+    color:black;
+    opacity:100%;
+
+}
+
+
+
+header{
+  margin-top:230px;
+  height: 550px;
+  width:100%;
+background-image: url("Images/QLAccueil/ovaheaderaccueil.jpg");
+background-size:cover;
+
+}
+
+
+
+section{
+  background-color:white;
+  height: 1900px;
+  width:100%;
+    font-family: arial;
+}
+
+table.barre{
+    height:20px;
+    width:100%;
+    background:#990000;
+}
+table.barre:hover{
+    background:#b30000;
+}
+
+
+
+table.editionsdumoment{
+  background:#e6b800;
+  padding:15px;
+  font-size:30px;
+  -moz-box-shadow:inset 2px 1px 17px #c7542a;
+  -webkit-box-shadow:inset 2px 1px 17px #c7542a;
+  box-shadow:inset 2px 1px 17px #c7542a;
+
+}
+
+
+
+
+
+
+
+div.gallerie1 {
+  width:48%;
+  float:left;
+  border:1px solid #ccc;
+  padding:10px;
+}
+div.gallerie1:hover{
+  border:1px solid #777;
+}
+div.gallerie1 img{
+  width:100%;
+
+}
+
+
+
+div.descrip{
+  text-align:center;
+
+}
+
+
+
+div.gallerie2 {
+  width:48%;
+float:right;
+  border:1px solid #ccc;
+  padding:10px;
+}
+div.gallerie2:hover{
+  border:1px solid #777;
+}
+div.gallerie2 img{
+  width:100%;
+
+}
+
+
+
+div.gallerie3 {
+  width:48%;
+margin-top:500px;   /*trouver une solution pour ce margin-top*/
+  border:1px solid #ccc;
+  padding:10px;
+
+}
+div.gallerie3:hover{
+  border:1px solid #777;
+}
+div.gallerie3 img{
+  width:100%;
+
+}
+
+
+table.Acheter{
+  background:#e6b800;
+  padding:15px;
+  font-size:30px;
+  -moz-box-shadow:inset 2px 1px 17px #c7542a;
+  -webkit-box-shadow:inset 2px 1px 17px #c7542a;
+  box-shadow:inset 2px 1px 17px #c7542a;
+}
+
+
+
+div.panel1{
+  background-image: url("Images/QLAccueil/OVAaccueilpanel1.jpg");
+  background-size: cover;
+  background-image: opacity(0.2);
+  width:100%;
+  height: 800px;
+}
+
+
+div.panelcontain img{
+  width:15%;
+  height:15%;
+  padding:15px;
+  margin-top:120px;
+  margin-left:70px;
+
+}
+
+
+footer{
+  height: 210px;
+  width: 100%;
+  background:#e6b800;
+   text-decoration: none;
+   -moz-box-shadow:inset 2px 1px 17px #cf7c5d;
+-webkit-box-shadow:inset 2px 1px 17px #cf7c5d;
+box-shadow:inset 2px 1px 17px #cf7c5d;
+}
+
+footer p{
+	text-align:center; clear:both; padding:15px 0;
+	font:12px/18px Arial, Helvetica, sans-serif;
+}
+
+
+div.textedubas{
+  margin-top:20px;
+
+}
+
+div.textedubas a{
+  font-family:arial;
+  font-weight:bold;
+  font-size: 25px;
+  margin-left:50px;
+  text-decoration: none;
+  color:black;
+
+
+}
+
+div.textedubas a:hover{
+  color:#990000;
+
+
+}
+
+
+
+.clear{
+	clear: both;
+}

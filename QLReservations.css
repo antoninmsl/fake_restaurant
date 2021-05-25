@@ -1,0 +1,140 @@
+body{
+  background: url("Images/QLReservations/ovabackgroundformulaire.jpg") 0 0 fixed no-repeat;
+  background-size: cover;          /*pour que le fond prenne une plus grande partie de l'image*/
+  justify-content: center;
+
+}
+
+/*La partie scrollmenu*/
+
+
+iframe { border: 0; overflow: auto; width: 100%; }
+
+
+
+
+
+
+
+
+/*On entre dnas le corps de la page*/
+
+
+#conteneur{
+    width: 972px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+header{
+  margin-top:230px;
+  height: 450px;
+  width:100%;
+background-image: url("Images/QLReservations/ovaheaderformulaire.jpg");
+background-size:cover;
+
+}
+
+
+
+section{
+  background-color:white;
+  height: 1400px;
+  width:100%;
+  font-family: arial;
+}
+
+table.barre{
+    height:20px;
+    width:100%;
+    background:#990000;
+}
+table.barre:hover{
+    background:#b30000;
+}
+
+
+table.compte{
+  background:#800000;
+  padding:20px;
+  font-size:30px;
+  color: #f2f2f2;
+  -moz-box-shadow:inset 0px -1px 31px #fa440d;
+  -webkit-box-shadow:inset 0px -1px 31px #fa440d;
+  box-shadow:inset 0px -1px 31px #fa440d;
+}
+
+table.compte:hover{
+  background:#990000;
+}
+
+
+h1{
+  font-size: 30px;
+}
+
+div.formulaire{
+  height:1200px;
+  margin-left:250px;
+  font-family: Arial;
+  width: 500px;
+}
+
+div.formulaire input.abc{
+  width:500px;
+  height:30px
+}
+
+
+.nomdecompte{
+  display: block;
+}
+
+
+}
+.clear{
+	clear: both;
+}
+
+div.formulaire input.abcd{
+  width: 500px;
+  height:100px;
+}
+
+footer {
+	text-align:center; clear:both; padding:15px 0;
+	font:12px/18px Arial, Helvetica, sans-serif;
+
+
+  display: block;
+
+  height: 20px;
+  background-color:#990000;
+  width: 972px;
+  margin:0 auto;
+  position: relative;
+
+}
+
+table.haut{
+    background-color:rgb(255, 255, 255); opacity:0.5;
+    opacity: 0.4;
+    margin-top: 150px;
+    margin-left: 10px;
+    height:20px;
+    width:auto;
+    font-size:28px;
+    font-family:arial;
+    font-weight: bold;
+
+}
+
+table.haut td{
+    color:black;
+    opacity:100%;
+}

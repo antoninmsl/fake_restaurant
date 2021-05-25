@@ -1,0 +1,32 @@
+body{
+  width: 98%;
+  justify-content: center;
+
+}
+
+div.scrollmenu {
+    background-color: #0d0d0d;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu img {
+  width: 60px;
+  height: 40px;
+
+}
+
+div.scrollmenu a {                 /* div.scrollmenu a {..} permet de modifier spécifiquement chaques elements contenus dans la div scrollmenu*/
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;          /*<---Pour que les elements de la barre de recherche ne soient pas soulignés*/
+    width: 13%;
+    font-size: 19px;
+    font-family: Arial;             /*<---Police du texte*/
+}
+
+div.scrollmenu a:hover {           /*<---pour que quand on y passe la souris ca devienne gris*/
+    background-color: #333333;
+}
